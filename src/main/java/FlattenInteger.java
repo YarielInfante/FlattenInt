@@ -32,6 +32,7 @@ public class FlattenInteger {
                 .flatMap(FlattenInteger::deepFlat)
                 .collect(Collectors.toList());
 
+
         result.forEach(System.out::println);
     }
 
